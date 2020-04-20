@@ -1,0 +1,57 @@
+##SQL-Connection
+
+SQL_USER: "root"
+SQL_PASSWORD: ""
+SQL_DATABASE: "staff"
+
+##Prefixe
+BanPrefix: "&8┃ &4Punish &8× "
+StaffPrefix: "&8┃ &eStaff &8× "
+NotifyPrefix: "&8┃ &3Notify&8× "
+
+##Messages
+NoPermission: "&4You don´t have the permissions fot this command!"
+LoginFirst: "&cYou must be logged in to use this command!"
+CreateAccountFirst: "&cYou need to create an account before you can use this command!"
+InternalError: "&cThere was an internal error! Please contact an admin!"
+AutomatticlyExtended: "&aThe punish has been automatically due to the players &aban history."
+BanNotify: "&8&l=====================================\n\n&8┃ &3Notify&8 × &aThe Player &e%player% &ahas been banned by &3%punisher% &afor &athe ID: &c%id%&7 | &aBanID: &c%banid%.\n\n&8&l====================================="
+Reloaded: "&aYou successfully reloaded the configs!"
+InvalidNumber: "&cPlease use a number to search a BanID!"
+PunishAlreadyInactive: "&cThe punishment you´re looking for is already inactive!"
+SetBanIDToInactive: "&aYou successfully set the BanID to inactive!"
+BanDoesNotExist: "&cThe ban you´re looking for does not exist!"
+InvalidTime: "&cThe time format you used is invalid. Please use: s/min/d/m/p"
+RefreshedEndtime: "&aYou successfully refreshed the end time of the &apunishment."
+IDFormat: "&c%id% &8| &4%reason% &8| &e%time% &8| &3%type%"
+WrongPassword: "&cThe password you entered is wrong."
+Login: "&aYou successfully &clogged &ain!"
+Logout: "&aYou successfully &clogged &aout!"
+CreatedAccount: "&aYou successfully created an account!"
+PasswordDontMatch: "&cThe passwords you entered do not match!"
+AlreadyAccount: "&cYou already have an account!"
+NewPasswordCantBeOld: "&cThe new password can´t be the old!"
+UpdatedPassword: "&aYou successfully updated your password!"
+InvalidID: "&cPlease use a valid ID!"
+IDAlreadyExists: "&cThe uses ID does already exist!"
+InvalidTYPE: "&cPlease use a valid punish type. BAN/MUTE"
+SavedID: "&aYou successfully saved the ID to the ids.yml!"
+JoinedTC: "&aYou successfully &cjoined &athe team chat!"
+LeftTC: "&aYou successfully &cleft &athe team chat!"
+InvalidPlayer: "&cThe player you are looking for was never on the network before!"
+PlayerAlreadyBanned: "&cThe player is already banned!"
+BanScreen: "§8┃ §4Punish §8× §7You have been banned!\n
+             \n
+             §7Reason » §e%reason%\n
+             §7BanID » §4%banid%\n
+             §7Banned by » §c%punisher%\n
+             §7Until: §a%unbanned%\n
+             \n
+             §8┃ §4Punish §8× §7You have been banned!"
+TeamChatFormat: "&8┃ &3Notify&8 × &7%name% &b%server% §r§8➟§r %message%"
+MuteMessage: "&cYou have been muted.&7 Until » §e%date% §7| Reason » §e%reason% §7| §7BanID » §4%banid% §7| §7Muted by » §c%punisher%"
+Ubannable: "&cThe player you´re trying to punish is not ban-able."
+NoBansYet: "&cThe player does´nt have any bans yet!"
+NoBansAtAll: "&cThe players does´nt have any bans at all!"
+ClearedHistory: "&aYou successfully cleared the history!"
+BanRemoved: "&aThe ban has been removed and deleted from the database"
